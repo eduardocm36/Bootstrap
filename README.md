@@ -1,1 +1,1 @@
-# Bootstrap
+Inicio de Proyecto "Guía Hotelera"
