@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "Primer proyecto de nodeJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardocm36/Bootstrap.git"
+  },
+  "author": "eduardocm36",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardocm36/Bootstrap/issues"
+  },
+  "homepage": "https://github.com/eduardocm36/Bootstrap#readme"
+}
