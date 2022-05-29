@@ -25,9 +25,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item "> <a class="nav-link active" href="#">Home</a> </li>
+                <li class="nav-item "> <a class="nav-link active" href="./index.html">Home</a> </li>
                 <li class="nav-item"> <a class="nav-link" href="./about.html">Nosotros</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#">Precios</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="./precio.html">Precios</a> </li>
                 <li class="nav-item"> <a class="nav-link" href="#">Términos y Condiciones</a> </li>
                 <li class="nav-item"> <a class="nav-link" href="./contact.html">Contacto</a> </li>
             </ul>
@@ -36,13 +36,13 @@
 
     </nav>
 
-    <div class="jumbotron">
+    <div class="container-fluid p-5 jumbotron">
     <h1>Hoteles</h1>
     </div>
 
-    <div class="container">
+    <div class="container pt-3">
         <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
+            <ol class="breadcrumb rounded">
                 <li class="breadcrumb-item active" aria-current="page">Home</li>
             </ol>
         </nav>
@@ -68,10 +68,11 @@
         </div>
         <hr>
         <div class="d-flex flex-wrap flex-row-reverse">
-            <div class="card-hotel d-flex flex-column justify-content-between">
-                <div>
-                    <h4>Hotel Barcelona</h4>
-                    <p>Hotel ubicado en pleno centro de barcelona a pocos metros de la playa.</p>
+            <div class="card card-hotel d-flex flex-column justify-content-between">
+                <div class="card-body">
+                    <h4 class="card-title">Hotel Barcelona</h4>
+                    <h6 class="card-subtitle text-muted mb-1">España</h6>
+                    <p class="card-text">Hotel ubicado en pleno centro de barcelona a pocos metros de la playa.</p>
                 </div>
                 <div>
                     <button class="btn btn-primary btn-reserva"><span class="oi oi-plus"></span> Reservar</button>
@@ -167,10 +168,10 @@
                 </address>
             </div>
             <div class="col-sm-4 d-flex flex-column align-items-end">
-                <a href="https://www.facebook.com">Nosotros</a>
-                <a href="https://www.twitter.com">Precios</a>
-                <a href="https://www.instagram.com">Términos y Condiciones</a>
-                <a href="https://www.instagram.com">Contactos</a>
+                <a href="https://www.facebook.com" class="icon-color">Nosotros</a>
+                <a href="https://www.twitter.com" class="icon-color">Precios</a>
+                <a href="https://www.instagram.com" class="icon-color">Términos y Condiciones</a>
+                <a href="https://www.instagram.com" class="icon-color">Contactos</a>
             </div>
         </div>
     </footer>
